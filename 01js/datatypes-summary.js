@@ -19,3 +19,22 @@ const id1 = Symbol.for('123');
 const anotherId1 = Symbol.for('123');
 console.log(id1 === anotherId1); // true
 
+// const bigNumber = 3456543576654356754n
+
+
+
+// Reference (Non primitive)
+
+// Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"];
+let myObj = {
+    name: "hitesh",
+    age: 22,
+}
+
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof anotherId);
