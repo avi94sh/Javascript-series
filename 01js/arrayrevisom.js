@@ -21,3 +21,13 @@ console.log(myObj.age); // Output: 22
 //bracket notation
 console.log(myObj["name"]); // Output: hitesh
 console.log(myObj["age"]); // Output: 22
+
+//we can store in variBLE
+
+const s=function mfuntion()
+{
+    id=7678;
+    score=9777;
+    console.log(`${id}\n${score}`);
+}
+s()
