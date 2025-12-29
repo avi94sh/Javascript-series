@@ -1,0 +1,52 @@
+In JavaScript, map(), filter(), and reduce() are powerful array methods that help you process and transform data in a clean and functional way. Here's a breakdown of each:
+
+🔁 map()
+Purpose: Transforms each element in an array and returns a new array of the same length.
+Syntax:
+const newArray = array.map((element, index, array) => {
+  // return transformed element
+});
+
+
+Example:
+const numbers = [1, 2, 3];
+const doubled = numbers.map(num => num * 2); // [2, 4, 6]
+
+
+
+🔍 filter()
+Purpose: Filters elements based on a condition and returns a new array with only the elements that pass the test.
+Syntax:
+const filteredArray = array.filter((element, index, array) => {
+  // return true to keep the element
+});
+
+
+Example:
+const numbers = [1, 2, 3, 4, 5];
+const even = numbers.filter(num => num % 2 === 0); // [2, 4]
+
+
+
+🧮 reduce()
+Purpose: Reduces the array to a single value by applying a function to each element and accumulating the result.
+Syntax:
+const result = array.reduce((accumulator, currentValue, index, array) => {
+  // return updated accumulator
+}, initialValue);
+
+
+Example:
+const numbers = [1, 2, 3, 4];
+const sum = numbers.reduce((acc, num) => acc + num, 0); // 10
+
+
+
+🧠 When to Use Each
+|  |  | 
+| map() |  | 
+| filter() |  | 
+| reduce() |  | 
+
+
+
